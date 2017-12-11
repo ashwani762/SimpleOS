@@ -2,18 +2,18 @@
 
 A simple OS implemtation that I am doing in my free time.
 
-###Requirements
+### Requirements
 
-[x]NASM
-[x]GCC
-[x]xorriso
-[x]qemu
-[x]grub
+* NASM
+* GCC
+* xorriso
+* qemu
+* grub
 
-###For running
+### For running
 
-[x] Just do make
-[x] Run make run to execute
-[x] Run make build-iso to create ISO
+* Just do make
+* Run make run to execute
+* Run make build-iso to create ISO
 
-###References
+### References
