@@ -53,19 +53,18 @@ extern void *memcpy(void *dest, const void *src, int count);
 extern void *memset(void *dest, char val, int count);
 extern unsigned short *memsetw(unsigned short *dest, unsigned short val, int count);
 
+static void move_cursor();
+static void scroll();
+
 void cls();
 void printchar(char c);
 void chg_color(short color);
 void print(char* str);
 void iprint(int number);
-void move_to_next_char();
-void move_to_next_line();
 void locate(int h, int w);
 void delay_text(char *string, int ticks);
 int str_len(char *string);
 void setbgcolor(short aff);
-void putch(char c);
-void putchar(char c);
 
 
 #endif
