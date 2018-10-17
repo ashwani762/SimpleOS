@@ -5,7 +5,7 @@ A simple OS implemtation that I am doing in my free time.
 ### Requirements
 
 * NASM
-* GCC
+* GCC - 7.x+
 * xorriso
 * qemu
 * grub
@@ -15,5 +15,3 @@ A simple OS implemtation that I am doing in my free time.
 * Just do make
 * Run make run to execute
 * Run make build-iso to create ISO
-
-### References
